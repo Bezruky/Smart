@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Smart</title>
+</head>
+
+<body>
+    <div class="wrapp">
+        <div class="header">
+            <div class="container">
+                <header>
+                    <div class="header__body">
+                        <div class="header_logo"><span class="color">S</span>mart</div>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li>
+                                    <a href="#working" class="header__link">Working Process</a>
+                                </li>
+                                <li>
+                                    <a href="#featured" class="header__link">Featured Works</a>
+                                </li>
+                                <li>
+                                    <a href="#services" class="header__link">Services We Provide</a>
+                                </li>
+                                <li>
+                                    <a href="#team" class="header__link">Team Chinen & Skills</a>
+                                </li>
+                                <li>
+                                    <a href="#clients" class="header__link">Clients Said</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__burger"><span></span></div>
+                    </div>
+                </header>
+                <!-- Обложка сайта -->
+                <div class="cover">
+                    <div class="cover__header" id="contact">
+                        <div class="cover__heading-title">
+                            <span class="color">Smart</span> Agency Landign Page
+                        </div>
+                        <div class="cover__heading-subtitle">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo dolore illum id eligendi,
+                            quibusdam
+                            velit iusto ipsum! Quidem, nisi tempore quas ipsa eos voluptatibus esse dignissimos
+                            consequuntur.
+                        </div>
+                    </div>
+                    <!-- Форма -->
+                    <div class="cover__heading-form">
+                        <div class="form-title"><span class="color">Send</span> A Message</div>
+                        <div class="form-body">
+                            <form action="#" method="POST" id="form">
+                                <div class="data">
+                                    <div class="form-body__name">
+                                        <input type="text" name="name" placeholder="Your Name"
+                                            class="form-body__input _req">
+                                    </div>
+                                    <div class="form-body__email">
+                                        <input type="email" name="email" placeholder="Your Email"
+                                            class="form-body__input _req _email">
+                                    </div>
+                                    <div class="form-body__message">
+                                        <textarea name="message" placeholder="Your Message"
+                                            class="form-body__input"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-body__button btn">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </form>
+                            <div class="form__alert alert-send" id="box">
+                                <p>Message send!</p>
+                                <a onclick="al()" class="alert-close">Close</a>
+                            </div>
+                            <div class="form__alert alert-warning" id="box1">
+                                <p>Error!</p>
+                                <a onclick="alo()" class="alert-close">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="working blocks__padding" id="working">
+            <div class="container">
+                <div class="working__title title"><span>Working</span> Process</div>
+                <div class="working__subtitle subtitle">Lorem ipsum dolor sit amet consectet ur adipiscing elit
+                    Vestibulum bibend um vestibulum.</div>
+                <div class="working__body">
+                    <div class="block__one block">
+                        <div class="block__img"><img src="img/block-working/magnit.png" alt=""></div>
+                        <div class="block__title">Koc Koi Tomi</div>
+                        <div class="block_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        <a href="#popup_1-1" class="popup-link">
+                            <div class="block__button button btn">Know More</div>
+                        </a>
+                    </div>
+                    <div class="block__two block">
+                        <div class="block__img"><img src="img/block-working/zhmil.png" alt=""></div>
+                        <div class="block__title">Koimona Set</div>
+                        <div class="block_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        <a href="#popup_1-2" class="popup-link">
+                            <div class="block__button button btn">Know More</div>
+                        </a>
+                    </div>
+                    <div class="block_three block">
+                        <div class="block__img"><img src="img/block-working/setting.png" alt=""></div>
+                        <div class="block__title">Setting Loire</div>
+                        <div class="block_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        <a href="#popup_1-3" class="popup-link">
+                            <div class="block__button button btn">Know More</div>
+                        </a>
+                    </div>
+                    <div class="block_four block">
+                        <div class="block__img"><img src="img/block-working/photo.png" alt=""></div>
+                        <div class="block__title">Ko Image Lara</div>
+                        <div class="block_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        <a href="#popup_1-4" class="popup-link">
+                            <div class="block__button button btn">Know More</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured blocks__padding" id="featured">
+            <div class="container">
+                <div class="featured__title title"><span>Featured</span> Works</div>
+                <div class="featured__subtitle subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores
+                    fuga provident Libero</div>
+                <div class="featured__body">
+                    <div class="featured__block">
+                        <a href="#image_1" class="content__image popup-link">
+                            <img src="img/block-featured/1200px-Kramskoy_Portrait_of_a_Woman.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_2" class="content__image popup-link">
+                            <img src="img/block-featured/Март Статья для блога. Живопись 63 (6.5) Портрет. Ян Вермеер. «Девушка с жемчужной серёжкой».jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_3" class="content__image popup-link">
+                            <img src="img/block-featured/example.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_4" class="content__image popup-link">
+                            <img src="img/block-featured/example.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_5" class="content__image popup-link">
+                            <img src="img/block-featured/example.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_6" class="content__image popup-link">
+                            <img src="img/block-featured/example.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_7" class="content__image popup-link">
+                            <img src="img/block-featured/example.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_8" class="content__image popup-link">
+                            <img src="img/block-featured/example.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="featured__block">
+                        <a href="#image_9" class="content__image popup-link">
+                            <img src="img/block-featured/example.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services blocks__padding" id="services">
+            <div class="container">
+                <div class="services__title title"><span>Services</span> We Provide</div>
+                <div class="services_subtitle subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores
+                    fuga provident Libero</div>
+                <div class="services__body">
+                    <div class="slider__body">
+                        <div class="slider">
+                            <div class="slider__item">
+                                <div class="item__info">
+                                    <div class="item__title">Modern App Design</div>
+                                    <div class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quidem voluptatibus porro aut libero possimus soluta corrupti nobis, sequi
+                                        commodi ea quod animi dolor, pariatur adipisci nam excepturi repellendus
+                                        quibusdam ipsa eius! Asperiores, ea. Consectetur necessitatibus vero iste quas
+                                        libero impedit quis reprehen- derit! Libero labore, esse ipsum consequatur
+                                        laudantium rem. Eaque.</div>
+                                    <a href="#popup_2-1" class="popup-link">
+                                        <div class="item__button button btn">Know More</div>
+                                    </a>
+                                </div>
+                                <div class="item__image"><img src="img/block-services/apple-watch-mockup.png" alt="">
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <div class="item__info">
+                                    <div class="item__title">Multifunctionality</div>
+                                    <div class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quidem voluptatibus porro aut libero possimus soluta corrupti nobis, sequi
+                                        commodi ea quod animi dolor, pariatur adipisci nam excepturi repellendus
+                                        quibusdam ipsa eius! Asperiores, ea. Consectetur necessitatibus vero iste quas
+                                        libero impedit quis reprehenderit! Libero labore, esse ipsum consequatur
+                                        laudantium rem. Eaque.</div>
+                                    <a href="#popup_2-2" class="popup-link">
+                                        <div class="item__button button btn">Know More</div>
+                                    </a>
+                                </div>
+                                <div class="item__image"><img src="img/block-services/apple-watch-mockup.png" alt="">
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <div class="item__info">
+                                    <div class="item__title">Excellent Responsiveness</div>
+                                    <div class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quidem voluptatibus porro aut libero possimus soluta corrupti nobis, sequi
+                                        commodi ea quod animi dolor, pariatur adipisci nam excepturi repellendus
+                                        quibusdam ipsa eius! Asperiores, ea. Consectetur necessitatibus vero iste
+                                        quas
+                                        libero impedit quis reprehenderit! Libero labore, esse ipsum consequatur
+                                        laudantium rem. Eaque.</div>
+                                    <a href="#popup_2-3" class="popup-link">
+                                        <div class="item__button button btn">Know More</div>
+                                    </a>
+                                </div>
+                                <div class="item__image"><img src="img/block-services/apple-watch-mockup.png" alt="">
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <div class="item__info">
+                                    <div class="item__title">Modern App Design</div>
+                                    <div class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                        Quidem voluptatibus porro aut libero possimus soluta corrupti nobis,
+                                        sequi
+                                        commodi ea quod animi dolor, pariatur adipisci nam excepturi repellendus
+                                        quibusdam ipsa eius! Asperiores, ea. Consectetur necessitatibus vero
+                                        iste quas
+                                        libero impedit quis reprehenderit! Libero labore, esse ipsum consequatur
+                                        laudantium rem. Eaque.</div>
+                                    <a href="#popup_2-4" class="popup-link">
+                                        <div class="item__button button btn">Know More</div>
+                                    </a>
+                                </div>
+                                <div class="item__image"><img src="img/block-services/apple-watch-mockup.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team blocks__padding" id="team">
+            <div class="container">
+                <div class="team__title title"><span>Team</span> Chinen & Skills</div>
+                <div class="team__subtitle subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores
+                    fuga provident Libero</div>
+                <div class="team__body">
+                    <div class="team__slider">
+                        <div class="team__item">
+                            <div class="team__container">
+                                <div class="team__photo"><img src="img/block-team/person_1.jpg" alt=""></div>
+                                <div class="team__indicators">
+                                    <div class="indicator_one indicator">UI/UX Design</div>
+                                    <div class="indicator_two indicator">English</div>
+                                    <div class="indicator_three indicator">Communication</div>
+                                </div>
+                                <div class="team__text">
+                                    <div class="text__tittle">Alex</div>
+                                    <div class="text__subtitle">UI/UX Parena</div>
+                                    <div class="text__icons">
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/fb.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/twitter.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/vk.png"
+                                                    alt=""></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <div class="team__container">
+                                <div class="team__photo"><img src="img/block-team/person_2.jpg" alt=""></div>
+                                <div class="team__indicators">
+                                    <div class="indicator_one indicator">UI/UX Design</div>
+                                    <div class="indicator_two indicator">English</div>
+                                    <div class="indicator_three indicator">Communication</div>
+                                </div>
+                                <div class="team__text">
+                                    <div class="text__tittle">Raychel</div>
+                                    <div class="text__subtitle">UI/UX Designer</div>
+                                    <div class="text__icons">
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/fb.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/twitter.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/vk.png"
+                                                    alt=""></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <div class="team__container">
+                                <div class="team__photo"><img src="img/block-team/person_3.jpg" alt=""></div>
+                                <div class="team__indicators">
+                                    <div class="indicator_one indicator">UI/UX Design</div>
+                                    <div class="indicator_two indicator">English</div>
+                                    <div class="indicator_three indicator">Communication</div>
+                                </div>
+                                <div class="team__text">
+                                    <div class="text__tittle">Ali</div>
+                                    <div class="text__subtitle">UI/UX Designer</div>
+                                    <div class="text__icons">
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/fb.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/twitter.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/vk.png"
+                                                    alt=""></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <div class="team__container">
+                                <div class="team__photo"><img src="img/block-team/person_4.jpg" alt=""></div>
+                                <div class="team__indicators">
+                                    <div class="indicator_one indicator">UI/UX Design</div>
+                                    <div class="indicator_two indicator">English</div>
+                                    <div class="indicator_three indicator">Communication</div>
+                                </div>
+                                <div class="team__text">
+                                    <div class="text__tittle">Nicole</div>
+                                    <div class="text__subtitle">Project manager</div>
+                                    <div class="text__icons">
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/fb.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/twitter.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/vk.png"
+                                                    alt=""></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <div class="team__container">
+                                <div class="team__photo"><img src="img/block-team/person_5.jpg" alt=""></div>
+                                <div class="team__indicators">
+                                    <div class="indicator_one indicator">UI/UX Design</div>
+                                    <div class="indicator_two indicator">English</div>
+                                    <div class="indicator_three indicator">Communication</div>
+                                </div>
+                                <div class="team__text">
+                                    <div class="text__tittle">Adam</div>
+                                    <div class="text__subtitle">Data Base Programmer</div>
+                                    <div class="text__icons">
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/fb.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/twitter.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/vk.png"
+                                                    alt=""></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__item">
+                            <div class="team__container">
+                                <div class="team__photo"><img src="img/block-team/person_6.jpg" alt=""></div>
+                                <div class="team__indicators">
+                                    <div class="indicator_one indicator">UI/UX Design</div>
+                                    <div class="indicator_two indicator">English</div>
+                                    <div class="indicator_three indicator">Communication</div>
+                                </div>
+                                <div class="team__text">
+                                    <div class="text__tittle">Viktor</div>
+                                    <div class="text__subtitle">Director</div>
+                                    <div class="text__icons">
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/fb.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/twitter.png"
+                                                    alt=""></a></div>
+                                        <div class="icon"><a href=""><img src="img/block-services/icons/vk.png"
+                                                    alt=""></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review blocks__padding" id="clients">
+            <div class="container">
+                <div class="review__title title"><span>Clients</span> Said</div>
+                <div class="review__subtitle subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores
+                    fuga provident Libero</div>
+                <div class="review__body">
+                    <div class="review__slider">
+                        <div class="review__item">
+                            <div class="item__body">
+                                <div class="review__photo"><img src="img/block-review/reviewer1.jpg" alt=""></div>
+                                <div class="review__text">“This was my first time renting from car rental. The service
+                                    rep help me find the best rental to suit my needs. I will
+                                    definitely rent with this company again”</div>
+                                <div class="review__stars">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                </div>
+                                <div class="review_author"><span>Kita Say</span>, HK Director</div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="item__body">
+                                <div class="review__photo"><img src="img/block-review/reviewer2.jpg" alt=""></div>
+                                <div class="review__text">“This was my first time renting from car rental. The service
+                                    rep help me find the best
+                                    rental to suit my needs. I will
+                                    definitely rent with this company again”</div>
+                                <div class="review__stars">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/empty_star.png" alt="">
+                                </div>
+                                <div class="review_author"><span>Al Rayhan</span>, UX Director</div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="item__body">
+                                <div class="review__photo"><img src="img/block-review/reviewer3.jpg" alt=""></div>
+                                <div class="review__text">“This was my first time renting from car rental. The service
+                                    rep help me find the best
+                                    rental to suit my needs. I will
+                                    definitely rent with this company again”</div>
+                                <div class="review__stars">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                </div>
+                                <div class="review_author"><span>Kita Say</span>, HK Director</div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="item__body">
+                                <div class="review__photo"><img src="img/block-review/reviewer4.jpg" alt=""></div>
+                                <div class="review__text">“This was my first time renting from car rental. The service
+                                    rep help me find the best
+                                    rental to suit my needs. I will
+                                    definitely rent with this company again”</div>
+                                <div class="review__stars">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                </div>
+                                <div class="review_author"><span>Kita Say</span>, HK Director</div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="item__body">
+                                <div class="review__photo"><img src="img/block-review/reviewer5.jpg" alt=""></div>
+                                <div class="review__text">“This was my first time renting from car rental. The service
+                                    rep help me find the best
+                                    rental to suit my needs. I will
+                                    definitely rent with this company again”</div>
+                                <div class="review__stars">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                </div>
+                                <div class="review_author"><span>Kita Say</span>, HK Director</div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="item__body">
+                                <div class="review__photo"><img src="img/block-review/reviewer6.jpg" alt=""></div>
+                                <div class="review__text">“This was my first time renting from car rental. The service
+                                    rep help me find the best
+                                    rental to suit my needs. I will
+                                    definitely rent with this company again”</div>
+                                <div class="review__stars">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                    <img src="img/block-review/star.png" alt="">
+                                </div>
+                                <div class="review_author"><span>Kita Say</span>, HK Director</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partners">
+            <div class="container">
+                <div class="partners__body">
+                    <div class="partner"><img src="img/block-partners/linkedin.png" alt=""></div>
+                    <div class="partner"><img src="img/block-partners/dribbble.png" alt=""></div>
+                    <div class="partner"><img src="img/block-partners/envato.png" alt=""></div>
+                    <div class="partner"><img src="img/block-partners/linkedin.png" alt=""></div>
+                    <div class="partner"><img src="img/block-partners/dribbble.png" alt=""></div>
+                    <div class="partner"><img src="img/block-partners/envato.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="contaier">
+                <div class="footer__top">
+                    <a href="#contact">
+                        <div class="footer__button">Contact Us</div>
+                    </a>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__media">
+                        <div class="footer__icon"><img src="img/block-footer/facebook.png" alt=""></div>
+                        <div class="footer__icon"><img src="img/block-footer/twitter.png" alt=""></div>
+                        <div class="footer__icon"><img src="img/block-footer/vk.png" alt=""></div>
+                        <div class="footer__icon"><img src="img/block-footer/behance.png" alt=""></div>
+                    </div>
+                    <div class="footer__copyright">© 2015 - 2016 Deviserweb Ltd.</div>
+                </div>
+
+
+            </div>
+        </footer>
+
+    </div>
+    <div id="popup_1-1" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Koc Koi Tomi</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_1-2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Koimona Set</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_1-3" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Setting Loire</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_1-4" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Ko Image Lara</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+            </div>
+        </div>
+    </div>
+    <div id="image_1" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/1200px-Kramskoy_Portrait_of_a_Woman.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/Март Статья для блога. Живопись 63 (6.5) Портрет. Ян Вермеер. «Девушка с жемчужной серёжкой».jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_3" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/example.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_4" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/example.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_5" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/example.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_6" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/example.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_7" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/example.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_8" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/example.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image_9" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__image">
+                    <img src="img/block-featured/example.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_2-1" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Modern App Design</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+                <div class="popup__content_img"><img src="img/block-services/apple-watch-mockup.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_2-2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Multifunctionality</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+                <div class="popup__content_img"><img src="img/block-services/apple-watch-mockup.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_2-3" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Excellent Responsiveness</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+                <div class="popup__content_img"><img src="img/block-services/apple-watch-mockup.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_2-4" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close close-popup"></a>
+                <div class="popup__title">Modern App Design</div>
+                <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium
+                    iusto, eius nobis earum ratione explicabo. Maiores, quis explicabo aspernatur dicta, quia amet
+                    natus sunt quaerat consectetur, corrupti placeat aliquam.
+                    Nulla voluptas, temporibus quisquam, tempora adipisci quaerat minima officiis nesciunt incidunt,
+                    dolorem repellat aperiam. Magnam maiores cumque laborum ipsam, quaerat, hic quis pariatur porro
+                    optio dicta omnis dignissimos minus? Blanditiis!
+                    Asperiores velit a eligendi atque rerum voluptate repudiandae, natus saepe, nihil repellendus
+                    delectus vero totam dolorem quae debitis ipsam quia unde? Asperiores consequuntur in accusantium
+                    dolore hic dolorum atque numquam!</div>
+                <div class="popup__content_img"><img src="img/block-services/apple-watch-mockup.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+
+</body>
+
+</html>
